@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="TeleponeDirectory" Class="TeleponeDirectoryContextDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=mihriban;Initial Catalog=TeleponeDirectory;Persist Security Info=True;User ID=sa" SettingsObjectName="LinqToSqlCRUD.Properties.Settings" SettingsPropertyName="TeleponeDirectoryConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Directory" Member="Directories">
+    <Type Name="Directory">
+      <Column Name="DirectoryId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Firstname" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="EmailAddress" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Telepone1" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Telepone2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Telepone3" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="FacebookURI" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="TwiterURI" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="YoutubeURI" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Explanation" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

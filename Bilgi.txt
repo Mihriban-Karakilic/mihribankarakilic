@@ -1,0 +1,8 @@
+Insert, Update, Delete işlemlerine geçmeden önce kullanacağımız nesneleri içeren 
+DataContext nesnesi tanımlamasını yapmalıyız. 
+LINQ to SQL Classes (.dbml) dosyaları veritabanında yer alan veri nesnelerini 
+doğrudan uygulamamıza classlar olarak aktarmamızı sağlar. 
+(Ben Linq Class ı TeleponeDirectoryContext.dbml ismiyle oluşturdum.)
+
+SubmitChanges()=Veritabanında değişiklik yapmak istediğimiz noktada SubmitChanges() 
+metodunu kullanıyoruz.
